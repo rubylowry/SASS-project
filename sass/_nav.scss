@@ -1,0 +1,23 @@
+nav {
+  padding: 20px 30px;
+  margin: 40px 30px;
+  background: #c1e6da;
+  border: 2px solid $fontColor;
+  height: 90vh;
+  display: none;
+  z-index: 3;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  ul{
+    li{
+      padding: $backPadding;
+      a{
+        color:$fontColor;
+      }
+    }
+  }
+}
+.active{
+  display: block;
+}

@@ -1,0 +1,32 @@
+@import 'variables';
+@import 'resets';
+@import 'nav';
+@import 'icons';
+
+body {
+  background: $backColor;
+  color: $fontColor;
+  width: $backWidth;
+}
+
+h1 {
+  padding: $backPadding;
+  margin: $backMargin;
+}
+
+
+.imgDiv {
+  // margin: 10%;
+  // width: $imageWidth;
+  // background-color: pink;
+}
+
+.chipmunk {
+  margin: $imageMargin;
+  width: $imageWidth;
+}
+
+.koala {
+  margin: $imageMargin;
+  width: $imageWidth;
+}
