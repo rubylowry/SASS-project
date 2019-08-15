@@ -1,7 +1,11 @@
-@import 'variables';
-@import 'resets';
-@import 'nav';
-@import 'icons';
+@import '_cssReset';
+@import '_variables';
+@import '_mixins';
+@import '_resets';
+@import '_nav';
+@import '_icons';
+
+
 
 body {
   background: $backColor;
@@ -14,11 +18,10 @@ h1 {
   margin: $backMargin;
 }
 
-
 .imgDiv {
-  // margin: 10%;
-  // width: $imageWidth;
-  // background-color: pink;
+  margin: 40px 40px;
+  width: 10px 40px 40px 10px;
+  background-color: lightpink;
 }
 
 .chipmunk {
@@ -29,4 +32,22 @@ h1 {
 .koala {
   margin: $imageMargin;
   width: $imageWidth;
+}
+
+gallery-text {
+  border: 2px;
+}
+
+.gallery-text {
+    float: left;
+    width: $paraWidth;
+    margin: 1%;
+}
+.gallery-text p {
+    font-size: 20px;
+    word-break: break-all;
+}
+
+ul {
+  @extend .gallery-text;
 }

@@ -17,7 +17,7 @@ nav {
   top: 0px;
   left: 0px; }
   nav ul li {
-    padding: 20px; }
+    padding: 40px; }
     nav ul li a {
       color: #b17ed6; }
 
@@ -37,15 +37,32 @@ body {
   width: 1000px; }
 
 h1 {
-  padding: 20px;
+  padding: 40px;
   margin: 100px; }
 
+.imgDiv {
+  margin: 40px 40px;
+  width: 10px 40px 40px 10px;
+  background-color: lightpink; }
+
 .chipmunk {
-  margin: 10px 90px;
+  margin: 40px;
   width: 500px; }
 
 .koala {
-  margin: 10px 90px;
+  margin: 40px;
   width: 500px; }
+
+gallery-text {
+  border: 2px; }
+
+.gallery-text, ul {
+  float: left;
+  width: 48%;
+  margin: 1%; }
+
+.gallery-text p, ul p {
+  font-size: 20px;
+  word-break: break-all; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACH,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,IAAI;;AAGd,MAAO;EACL,SAAS,EAAE,IAAI",
+"sources": ["../sass/icons.scss"],
+"names": [],
+"file": "icons.css"
+}
